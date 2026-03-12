@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PoW vs PoS</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+   <!-- NAVBAR PRINCIPAL -->
+<header>
+    <nav class="navbar">
+        <a href="01-index.html" class="logo">Blockchain & Potencia Computacional</a>
+        <div class="nav-links">
+            <a href="02-blockchain.html">Blockchain</a>
+            <a href="03-minado.html">Minado</a>
+            <a href="04-hardware.html">Hardware</a>
+            <a href="05-pow-pos.html">PoW vs PoS</a>
+            <a href="06-energia.html">Energía</a>
+            <a href="07-futuro.html">Futuro</a>
+            <a href="08-creditos.html">Créditos</a>
+        </div>
+    </nav>
+</header>
+
+
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <div class="page pow-pos-page">
+
+        <h1>Prueba de Trabajo (PoW) vs Prueba de Participación (PoS)</h1>
+
+        <!-- IMAGEN ESQUEMÁTICA COMPARATIVA -->
+<div class="powpos-esquema">
+    <img src="img/pow-pos-esquema.png" alt="Esquema PoW vs PoS">
+</div>
+
+
+        <p class="powpos-intro">
+            Las dos formas más conocidas de asegurar una red blockchain son PoW y PoS. 
+            Aunque ambas buscan validar transacciones y mantener la seguridad, lo hacen 
+            mediante mecanismos completamente diferentes.
+        </p>
+
+        <!-- TARJETAS COMPARATIVAS -->
+        <div class="comparison-grid">
+
+            <div class="comparison-card">
+                <div class="comp-icon pow"></div>
+                <h2>PoW — Proof of Work</h2>
+                <p>
+                    Basado en potencia computacional. Los mineros compiten para resolver 
+                    problemas criptográficos y obtener recompensas. Es seguro, pero consume 
+                    mucha energía.
+                </p>
+            </div>
+
+            <div class="comparison-card">
+                <div class="comp-icon pos"></div>
+                <h2>PoS — Proof of Stake</h2>
+                <p>
+                    Basado en participación. Los validadores bloquean criptomonedas para 
+                    asegurar la red. Es más eficiente energéticamente y permite mayor 
+                    escalabilidad.
+                </p>
+            </div>
+
+        </div>
+
+        <!-- LISTA DE DIFERENCIAS -->
+        <h2>Diferencias Clave</h2>
+
+        <div class="differences-cubes">
+
+            <div class="cube">
+                <h3>Consumo Energético</h3>
+                <p>PoW requiere hardware y mucha energía; PoS solo necesita stake.</p>
+            </div>
+
+            <div class="cube">
+                <h3>Seguridad</h3>
+                <p>PoW depende del hashpower; PoS del capital bloqueado.</p>
+            </div>
+
+            <div class="cube">
+                <h3>Descentralización</h3>
+                <p>PoW favorece a mineros; PoS a los holders.</p>
+            </div>
+
+            <div class="cube">
+                <h3>Escalabilidad</h3>
+                <p>PoS permite más transacciones por segundo.</p>
+            </div>
+
+        </div>
+
+    </div> <!-- FIN DEL CONTENEDOR .page -->
+
+    <!-- FOOTER (CORREGIDO) -->
+    <footer>
+        <p>Proyecto creado por Alejandro</p>
+    </footer>
+
+</body>
+</html>
+
